@@ -22,6 +22,7 @@ OptionSize.propTypes = {
   }).isRequired,
   onSelectSize: PropTypes.func.isRequired,
   isActive: PropTypes.bool.isRequired,
+  additionalPrice: PropTypes.number.isRequired,
 };
 
 export default OptionSize;
